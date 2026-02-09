@@ -40,6 +40,5 @@ function render() {
   }
 }
 
-// opcional: render inicial
 render();
 
