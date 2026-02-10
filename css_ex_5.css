@@ -26,6 +26,7 @@ body{
     margin-bottom: 20px;
     border-radius: 10px;
     border: none;
+    text-align: right;
 }
 .calculadora .teclado-container{
     display: grid;
