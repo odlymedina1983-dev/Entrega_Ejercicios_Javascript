@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(151, 113, 113);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#returnIndex a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.generator-container{
+    width: 350px;
+    height: auto;
+    background-color: rgba(48, 45, 45,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.genHeader{
+    text-align: center;
+    color: beige;
+    margin: 0;
+    margin-top: 5px;
+}
+.genInput{
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+#genSubmit{
+    background-color: brown;
+    color: beige;
+    border: none;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+}
