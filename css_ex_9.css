@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(248, 220, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#returnIndex a{
+    color: rgb(56, 33, 14);
+    font-weight: 600;
+    text-decoration: none;
+}
+.todo-container{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+#taskListHeader{
+    margin: 0;
+    padding: 0;
+    color: rgb(248, 220, 197);
+}
+#addBtn{
+    border: none;
+    border-radius: 5px;
+    max-width: 80%;
+    background-color: rgb(66, 3, 3);
+    color: rgb(248, 220, 197);
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+#addBtn:hover{
+    background-color: rgb(248, 220, 197);
+    color: rgb(66, 3, 3);
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgb(248, 220, 197);    
+}
+#list > li > button{
+    margin-left: 5px;
+    padding: 2px;
+}

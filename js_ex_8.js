@@ -23,4 +23,4 @@ function procesarText(textValue) {
 function renderScreens(caracAmount,wordAmount){
     caracteresScreen.value = caracAmount;
     wordsScreen.value = wordAmount;
-}value
+}
